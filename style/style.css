@@ -685,7 +685,7 @@ footer {
     .wrapper{ 
         margin-top: 300px;
     }
-    .container { 
+    .container {
         flex-direction: column;
         align-items: center;
         height: auto;
