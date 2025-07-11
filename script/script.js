@@ -19,7 +19,7 @@ const donutImg = document.querySelector('.main-donut-img');
 
 const btns = document.querySelectorAll('.left-btns button');
 
-window.onload = function () {
+function initMap() {
 
     // 지도가져오기
     var mapContainer = document.getElementById('map');
