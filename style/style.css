@@ -682,14 +682,19 @@ footer {
     .popup-contents h2 {
         font-size: 0.6em;
     }
-    .wrapper{ 
-        margin-top: 300px;
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
     }
+
     .container {
+        width: 80%;
+        height: 90%;
         flex-direction: column;
         align-items: center;
-        height: auto;
         gap: 50px;
+        padding: 30px 0px;
     }
 
     .slidingcard {
@@ -698,9 +703,10 @@ footer {
         transition: width 0.6s ease, height 0.6s ease;
     }
 
-    input:checked + label {
+    input:checked+label {
         width: 95%;
-        height: 250px; /* 모바일에서 클릭 시 높이 */
+        height: 250px;
+        /* 모바일에서 클릭 시 높이 */
     }
 
     .slidingcard>.row {
